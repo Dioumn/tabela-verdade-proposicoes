@@ -1,0 +1,13 @@
+// Arquivo de configuração para depuração no VSCode
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Run JavaFX",
+      "request": "launch",
+      "mainClass": "Main",
+      "vmArgs": "--module-path \"C:\\openjfx\\lib\" --add-modules javafx.controls,javafx.fxml"
+    }
+  ]
+}

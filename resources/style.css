@@ -1,0 +1,27 @@
+.root {
+    -fx-font-size: 14px;
+    font-size: 14px; /* compatibilidade */
+}
+
+/* textos */
+.label {
+    -fx-text-fill: white;
+}
+
+/* botões */
+.button {
+    -fx-background-color: #3a3a3a;
+    background-color: #3a3a3a; /* compatibilidade */
+
+    -fx-text-fill: white;
+
+    -fx-padding: 8 16;
+    padding: 8 16; /* compatibilidade */
+
+    -fx-background-radius: 8;
+}
+
+.button:hover {
+    -fx-background-color: #5a5a5a;
+    background-color: #5a5a5a; /* compatibilidade */
+}
