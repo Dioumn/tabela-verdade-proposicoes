@@ -26,6 +26,7 @@ public class InventarioView extends GridPane {
     public void atualizar() {
         getChildren().clear();
 
+        // Exibe os ingredientes atuais da poção em 2x2
         for (int i = 0; i < 4; i++) {
 
             if (i < pocao.getIngredientes().size()) {

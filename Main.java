@@ -31,7 +31,7 @@ public class Main extends Application {
         VBox root = new VBox(10, topo, tabela);
         root.setPadding(new Insets(10));
 
-        // FUNDO (imagem repetida)
+        // FUNDO
         root.setStyle("""
             -fx-background-image: url('file:resources/fx/fundo.png');
             -fx-background-repeat: stretch;
