@@ -59,7 +59,7 @@ public class ResultadoView extends VBox {
         for (String nome : nomes) {
 
             if (nome == null || nome.length() <= 3) {
-                continue; // evita erro
+                continue; // Evitar erro caso no futuro haja um nome inválido
             }
 
             // Remove os 3 primeiros caracteres

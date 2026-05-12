@@ -11,7 +11,7 @@ public class TabelaView extends GridPane {
     private Label p, q, r, s, t;
     private Label p1, p2, p3, p4;
     private Label v1, v2, v3, v4;
-
+    
     public TabelaView(Pocao pocao) {
         this.pocao = pocao;
 
@@ -109,6 +109,7 @@ public class TabelaView extends GridPane {
         }
     }
 
+    // Atualiza os valores da tabela com base no estado atual da poção
     public void atualizar() {
 
         boolean P = pocao.getIngredientes().contains(Ingrediente.CENOURA_DOURADA);

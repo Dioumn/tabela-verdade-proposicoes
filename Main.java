@@ -41,7 +41,7 @@ public class Main extends Application {
         Scene scene = new Scene(root);
 
         stage.setScene(scene);
-        stage.setTitle("Sistema de Poções");
+        stage.setTitle("Propotion Potions");
         stage.setResizable(false); // tela fixa
         stage.show();
     }

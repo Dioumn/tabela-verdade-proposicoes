@@ -1,4 +1,4 @@
-// Enum para representar os ingredientes disponíveis no jogo
+// Enum para representar os ingredientes disponíveis no programa
 package model;
 
 public enum Ingrediente {

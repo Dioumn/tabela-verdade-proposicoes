@@ -22,7 +22,7 @@ public class CaldeiraoView extends VBox {
             -fx-border-width: 2;
         """);
 
-        setAlignment(Pos.CENTER); // centraliza conteúdo geral
+        setAlignment(Pos.CENTER);
 
         fogo = new ImageView(new Image("file:resources/fx/fogo.gif"));
         fogo.setScaleX(0.5);
@@ -51,12 +51,12 @@ public class CaldeiraoView extends VBox {
         Button esquentar = new Button("Esquentar");
         Button finalizar = new Button("Finalizar");
 
-        // estilo dos botões
+        // Estilo dos botões
         String estiloBotao = "-fx-font-size: 16px; -fx-font-weight: bold;";
         esquentar.setStyle(estiloBotao);
         finalizar.setStyle(estiloBotao);
 
-        // tamanho dos botões
+        // Tamanho dos botões
         esquentar.setPrefSize(150, 50);
         finalizar.setPrefSize(150, 50);
 
@@ -74,12 +74,13 @@ public class CaldeiraoView extends VBox {
             tabela.atualizar();
         });
 
-        // container dos botões centralizado
+        // Botões em coluna
         VBox botoes = new VBox(15, esquentar, finalizar);
         botoes.setAlignment(Pos.CENTER);
 
         getChildren().addAll(area, botoes);
 
+        // Esfriamento natural do calor
         Timeline t = new Timeline(
             new KeyFrame(Duration.seconds(0.7), e -> {
                 pocao.esfriarNatural();

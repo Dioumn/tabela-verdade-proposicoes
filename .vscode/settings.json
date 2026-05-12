@@ -2,13 +2,13 @@
 {
   "java.project.referencedLibraries": [
     "c:\\openjfx\\lib\\javafx.fxml.jar",
-    "c:\\openjfx\\lib\\javafx.base.jar",
-    "c:\\openjfx\\lib\\javafx.graphics.jar",
     "c:\\openjfx\\lib\\javafx.web.jar",
+    "c:\\openjfx\\lib\\javafx.graphics.jar",
+    "c:\\openjfx\\lib\\javafx.base.jar",
     "c:\\openjfx\\lib\\javafx.swing.jar",
     "c:\\openjfx\\lib\\javafx.controls.jar",
-    "c:\\openjfx\\lib\\javafx-swt.jar",
-    "c:\\openjfx\\lib\\javafx.media.jar"
+    "c:\\openjfx\\lib\\javafx.media.jar",
+    "c:\\openjfx\\lib\\javafx-swt.jar"
   ],
   "java.project.sourcePaths": [
     "."
